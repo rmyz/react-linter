@@ -102,4 +102,5 @@ module.exports = {
   'space-infix-ops': 1,
   'react-hooks/rules-of-hooks': 'error',
   'react-hooks/exhaustive-deps': 0,
+  'react/react-in-jsx-scope': 0,
 };
