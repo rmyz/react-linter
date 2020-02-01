@@ -8,20 +8,20 @@
 
 ## Installation
 
-1. Install `@rmyzdev/linter` package:
+1. Install `@rmyzdev/react-linter` package:
 
 ```sh
-npm i -D @rmyzdev/linter
+npm i -D @rmyzdev/react-linter
 ```
 ​
 2. Add these lines to `package.json`:
 ​
 ```json
 "eslintConfig": {
-   "extends": ["./node_modules/@rmyzdev/linter/.eslintrc.js"]
+   "extends": ["./node_modules/@rmyzdev/react-linter/.eslintrc.js"]
  },
  "stylelint": {
-   "extends": "./node_modules/@rmyzdev/linter/stylelint.config.js"
+   "extends": "./node_modules/@rmyzdev/react-linter/stylelint.config.js"
  },
 ```
 
@@ -39,7 +39,7 @@ npm i -D @rmyzdev/linter
 2. Also you need to add a line on the `root` of `package.json`:
 
 ```json
-"prettier": "./node_modules/@rmyzdev/linter/.prettierrc.js"
+"prettier": "./node_modules/@rmyzdev/react-linter/.prettierrc.js"
 ```
 
 ## Usage
