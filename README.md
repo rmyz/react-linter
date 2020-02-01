@@ -3,7 +3,7 @@
 ## Table of contents
 
 1. [Installation](#installation)
-1. [Configuration](#configuration)
+1. [Scripts](#scripts)
 1. [Usage](#usage)
 
 ## Installation
@@ -23,9 +23,10 @@ npm i -D @rmyzdev/react-linter
  "stylelint": {
    "extends": "./node_modules/@rmyzdev/react-linter/stylelint.config.js"
  },
+ "prettier": "./node_modules/@rmyzdev/react-linter/.prettierrc.js"
 ```
 
-## Configuration
+## Scripts
 
 1. Add these `scripts` to the `package.json`:
 ​
@@ -34,12 +35,6 @@ npm i -D @rmyzdev/react-linter
 "stylelint": "./node_modules/.bin/stylelint \"**/*.{js,jsx}\"",
 "format": "npm run prettier -- --write",
 "prettier": "./node_modules/.bin/prettier \"**/*.{js,jsx,css,json}\"",
-```
-
-2. Also you need to add a line on the `root` of `package.json`:
-
-```json
-"prettier": "./node_modules/@rmyzdev/react-linter/.prettierrc.js"
 ```
 
 ## Usage
