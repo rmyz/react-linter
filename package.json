@@ -1,6 +1,6 @@
 {
   "name": "@rmyzdev/react-linter",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "A standalone package that contains all the linting you need for a modern React project (ESlint + Prettier + Styled-Components)",
   "keywords": [
     "linter",
